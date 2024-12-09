@@ -1,0 +1,118 @@
+#fullpage.no-scroll {
+	overflow-Y: hidden;
+	max-height: 100vh;
+}
+
+.section {
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.section.one {
+	background-image: url(../media/Homepage1.avif);
+}
+
+.section.two {
+	background-image: url(../media/Model-Y.avif);
+}
+
+.section.three {
+	background-image: url(../media/Model-X-.avif);
+}
+
+.section.four {
+	background-image: url(../media/Model-S.avif);
+}
+
+.section.five {
+	background-image: url(../media/solar.avif);
+}
+.section.five1 {
+	background-image: url(../media/Charging.avif);
+}
+.section.seven {
+	background-image: url(../media/6.avif);
+}
+.section.seven1 {
+	background-image: url(../media/lifeStyle.avif);
+}
+
+.section.six {
+	background-image: url(../media/Accessories.avif);
+}
+.section__content {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--primary-color);
+}
+
+.section__content__title {
+	height: 50px;
+	color: black;
+	font-size: 4rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.section__content__subtitle {
+	color: black;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.section__content__subtitle a {
+	color: inherit;
+}
+
+.section__content__subtitle a:hover {
+	text-decoration: underline;
+}
+.section__action__container {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.section__action__btn {
+	height: 50px;
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 1rem;
+	border-radius: 2px;
+	flex-basis: 80%;
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+}
+.action__btn__primary {
+	background: rgba(23, 26, 42, 0.8);
+	color: white;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	transition: all ease-in-out .5s;
+}
+.action__btn__primary:hover{
+	background-color: #0f0f0f;
+	border: 2px solid #fff;
+	border-radius: 15px;
+}
+.action__btn__secondary {
+	background: rgba(255, 255, 255, 0.527);
+	color: var(--primary-color);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	transition: all ease-in-out .5s;
+}
+.action__btn__secondary:hover{
+	background: rgba(255, 255, 255, 0.836);
+	border: 2px solid #080808;
+	border-radius: 15px;
+}

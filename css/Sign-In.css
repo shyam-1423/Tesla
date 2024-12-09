@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SignIn-Section{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    bottom: -10%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.SignIn-Section .box{
+    height: 50vh;
+    width: 100%;
+    padding: 15px;
+}
+.box .SignIn-Section__content__title{
+    height: 50px;
+    font-size: 24px;
+    font-weight: 800;
+}
+.box .SignIn-Section__content__lable1{
+    height: 35px;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 210px;
+}
+.box .SignIn-Section__content__Input1{
+    max-width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+}
+.SignIn-Section__content__Input1 input[type="email"]
+{
+    height: 40px;
+    width: 100%;
+    background-color: #d1d1d1;
+    border: none;
+}
+input[type="email"]::placeholder{
+   height: 70px;
+   margin: 15px;
+}
+.box .SignIn-Section__content__Button{
+    max-width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.SignIn-Section__content__Button input[type="submit"]
+{
+    height: 40px;
+    width: 100%;
+    background-color: #2547f0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.box .SignIn-Section__content__Anchor1{
+    height: 50px;
+    width: 100%;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-top: 25px;
+}
+.SignIn-Section__content__Anchor1 a{
+    color: #0026ff;
+}
+.box .SignIn-Section__content__Or{
+    height: 80px;
+    width: 100%;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 40px;
+}
+.box .SignIn-Section__content__span1{
+    max-width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.box .SignIn-Section__content__Account{
+    height: 70px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignIn-Section__content__Account .SignIn-Section__content__Account-Google{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.SignIn-Section__content__Account-Google img{
+    height: 70px;
+    width: 70px;
+}
